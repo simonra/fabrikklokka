@@ -13,12 +13,20 @@ h2{
 	color: #aa1515;
 }
 
+.main-title{
+	text-decoration: underline;
+}
+
+section{
+	border-bottom: 2pt solid black;
+}
+
+section:last-child{
+	border: initial;
+}
+
 @media print{
 	body{
 		max-width:none
 	}
-}
-
-.main-title{
-	text-decoration: underline;
 }
