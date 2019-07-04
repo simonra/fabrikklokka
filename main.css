@@ -7,15 +7,16 @@ body{
 h1,h2,h3 {
 	line-height:1.2;
 }
+
+h2{
+	font-style: italic;
+	color: #aa1515;
+}
+
 @media print{
 	body{
 		max-width:none
 	}
-}
-
-.smaller-headlines{
-	font-style: italic;
-	color: #aa1515;
 }
 
 .main-title{
